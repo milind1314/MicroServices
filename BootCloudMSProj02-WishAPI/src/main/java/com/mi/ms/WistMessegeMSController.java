@@ -33,7 +33,7 @@ public class WistMessegeMSController {
 		}else {
 			msg = "Good Night";
 		}
-		return new ResponseEntity<String>(msg+" ---> "+instanceId,HttpStatus.OK);
+		return new ResponseEntity<>(msg+" ---> "+instanceId,HttpStatus.OK);
 	}
 	
 }
